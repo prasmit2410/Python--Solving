@@ -60,28 +60,9 @@ All solutions in this repository are implemented using:
 
 **Python 3**
 
-## 💡 Example
 
-### Two Sum
 
-Given an array of integers and a target, find the indices of two numbers whose sum equals the target.
 
-```python
-class Solution:
-    def twoSum(self, nums, target):
-        seen = {}
-
-        for i, num in enumerate(nums):
-            complement = target - num
-
-            if complement in seen:
-                return [seen[complement], i]
-
-            seen[num] = i
-```
-
-**Time Complexity:** `O(n)`  
-**Space Complexity:** `O(n)`
 
 ## 🎯 Purpose
 
@@ -99,6 +80,4 @@ This repository is continuously updated with new problems and optimized solution
 
 > **Solve → Understand → Optimize → Repeat.**
 
-## 📄 License
 
-This repository is intended primarily for learning and educational purposes.
